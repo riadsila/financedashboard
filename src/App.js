@@ -95,6 +95,36 @@ class App extends Component {
               </div>
             </div>
 
+            <p className="text-left pl-2"><strong>Want to earn some money?</strong></p>
+            <div class="card mb-4 p-4 shadow-sm">
+            <p className="mb-3 text-left">{"We at Zipper are always looking for ways to help you make a little bit of extra dosh. We've got some exclusive opportunities for you to make a quick quid in your spare time. "}</p>
+            <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" style={{height: '100px'}} src="referafriend.jpg" alt="referral" />
+                <div class="card-body text-left">
+                  <h5 class="card-title">Refer a friend</h5>
+                  <p class="card-text" style={{fontSize: '0.8em'}}>{"Share Zipper with your friends and earn up to £50!"}<br /><br />{"We'll give you £5 in cash for every friend you introduce to Zipper. You'll get the money as soon as they repay their first loan. Just tell your friends to message our online chat and say you referred them."}</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" style={{height: '100px'}} src="dogwalking.png" alt="dogwalking" />
+                <div class="card-body text-left">
+                  <h5 class="card-title">Walk a dog</h5>
+                  <p class="card-text" style={{fontSize: '0.8em'}}>Sign up for Rover and get paid to play with dogs!<br /><br />Turn extra time into extra cash by walking or sitting dogs in your neigbourhood. Sign up using the link below to get an extra £20.</p>
+                  <a href="http://share.rover.com/pnNgJ" target="_blank"><button type="button" class="btn btn-success btn-sm">Sign up</button></a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top"  style={{height: '100px'}} src="onlinesurveys.png" alt="onlinesurveys" />
+                <div class="card-body text-left">
+                  <h5 class="card-title">Fill in surveys</h5>
+                  <p class="card-text" style={{fontSize: '0.8em'}}>Earn cash and gift cards by completing tasks online. <br /><br />Swagbucks pays you for shopping online and in person, watching videos, taking surveys, donating to charity, searching the web, and playing games online. Get a free £5 using the link below.</p>
+                  <a href="http://www.swagbucks.com/p/register?rb=47594485" target="_blank"><button type="button" class="btn btn-success btn-sm">Sign up</button></a>
+                </div>
+              </div>
+              </div>
+            </div>
+
             <div class="card shadow-sm">
               <div class="card-body">
                   <p className="mb-1" style={{fontSize:'12px'}}>{"Did you find this useful?"}</p>
