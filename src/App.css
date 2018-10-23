@@ -34,3 +34,31 @@
   background-color: #24ce99;
   border-radius: 0.5rem;
 }
+
+.lamb-border {
+  border: 3px solid #24ce99;
+  border-radius: 5px;
+}
+
+.lamb-card {
+  background-color:#24ce99;
+  color: white;
+}
+
+.lamb {
+    border-radius: 5px;
+    background: #11998e;
+    background: -webkit-linear-gradient(90deg,#38ef7d,#11998e);
+    background: -webkit-gradient(linear,left top,right top,from(#38ef7d),to(#11998e));
+    background: -webkit-linear-gradient(left,#38ef7d,#11998e);
+    background: -o-linear-gradient(left,#38ef7d,#11998e);
+    background: linear-gradient(90deg,#38ef7d,#11998e);
+    color: #fff;
+}
+
+.lamb-body {
+  background-color: white;
+  color: black;
+  width: 98%;
+   margin: auto;  
+}

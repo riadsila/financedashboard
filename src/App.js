@@ -70,8 +70,8 @@ class App extends Component {
               <div className="col-md-6 pl-md-0">
                 <div className=" card mb-4 shadow-sm h-md-250">
                   <div className="card-body">
-                      <p className="d-inline-block mb-1 text-muted">Account balance</p>
-                      <h2 className="mb-0 text-dark mb-2">£119.34</h2>
+                      <p className="d-inline-block mb-1 text-muted">Estimated Income</p>
+                      <h2 className="mb-0 text-dark mb-2">£1190.34</h2>
                   </div>
                 </div>
               </div>
@@ -86,18 +86,29 @@ class App extends Component {
               </div>
             </div>
 
+                <div class="mb-4">
+                      <div class="lamb">
+                        <div className="py-2 pl-3"><h5><strong>Save up to £400 on your energy bills</strong></h5></div>
+                        <div className="lamb-body px-5 py-2">
+                          <p style={{fontWeight: '500'}}>Zipper has partnered with Look After My Bills to get you the best deal on your energy bills. It is a new service that removes all the hassle from switching your energy provider. Save up to £400 a year by signing up today!</p>
+                          <a href="#" target="_blank"><button type="button" class="btn btn-danger btn-sm">Sign up now</button></a>
+                        </div>
+                        <div className="py-1"></div>
+                      </div>
+                </div>
+
             <p className="text-left pl-2"><strong>Spending Analysis</strong></p>
-            <div class="card mb-4 shadow-sm">
-              <div class="card-body d-flex flex-column align-items-start">
-                  <p className="text-left">See how your finances compare with people like you.</p>
-                  <Chart />
-                  <p className="text-left">The chart above shows how much you spent last month compared with people whose income is similar to yours.</p>
+              <div class="card mb-4 shadow-sm">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <p className="text-left">See how your finances compare with people like you.</p>
+                    <Chart />
+                    <p className="text-left">The chart above shows how much you spent last month compared with people whose income is similar to yours.</p>
+                </div>
               </div>
-            </div>
 
             <p className="text-left pl-2"><strong>Want to earn some money?</strong></p>
             <div class="card mb-4 p-4 shadow-sm">
-            <p className="mb-3 text-left">{"We at Zipper are always looking for ways to help you make a little bit of extra dosh. We've got some exclusive opportunities for you to make a quick quid in your spare time. "}</p>
+            <p className="mb-3 text-left">{"We've got some exclusive opportunities for you to make a quick quid in your spare time. "}</p>
             <div class="card-group">
               <div class="card">
                 <img class="card-img-top" style={{height: '100px'}} src="referafriend.jpg" alt="referral" />
