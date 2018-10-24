@@ -60,5 +60,23 @@
   background-color: white;
   color: black;
   width: 98%;
-   margin: auto;  
+   margin: auto;
+}
+
+.primary-inverse-btn {
+  padding: 1rem 3rem;
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  color: #24ce99;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 40px;
+}
+
+.primary-inverse-btn:hover {
+  background-color: Transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
 }

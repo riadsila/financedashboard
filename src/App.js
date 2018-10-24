@@ -88,12 +88,10 @@ class App extends Component {
 
                 <div class="mb-4">
                       <div class="lamb">
-                        <div className="py-2 pl-3"><h5><strong>Save up to £400 on your energy bills</strong></h5></div>
-                        <div className="lamb-body px-5 py-2">
-                          <p style={{fontWeight: '500'}}>Zipper has partnered with Look After My Bills to get you the best deal on your energy bills. It is a new service that removes all the hassle from switching your energy provider. Save up to £400 a year by signing up today!</p>
-                          <a href="#" target="_blank"><button type="button" class="btn btn-danger btn-sm">Sign up now</button></a>
+                        <div className="py-4 px-4"><h4><strong>Save up to £400 on your energy bills</strong></h4>
+                          <p>Zipper has partnered with Look After My Bills to get you the best deal on your energy bills. </p>
+                          <a href="#" target="_blank"><button type="button" class="btn primary-inverse-btn mt-1"><strong>Sign up now</strong></button></a>
                         </div>
-                        <div className="py-1"></div>
                       </div>
                 </div>
 
@@ -103,6 +101,28 @@ class App extends Component {
                     <p className="text-left">See how your finances compare with people like you.</p>
                     <Chart />
                     <p className="text-left">The chart above shows how much you spent last month compared with people whose income is similar to yours.</p>
+                    <p className="mb-3"><strong>Largest Transactions Last Month</strong></p>
+                    <div className="container">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Bet365</td>
+                            <td>£888</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Gambler</td>
+                            <td>£888</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Gambling</td>
+                            <td>£888</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                 </div>
               </div>
 
